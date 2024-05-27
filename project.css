@@ -148,6 +148,7 @@ body {
   flex-wrap: wrap;
   margin-left: 320px;
   margin-right: 320px;
+  margin-bottom: 72px;
   gap: 72px;
   list-style-type: none;
 }

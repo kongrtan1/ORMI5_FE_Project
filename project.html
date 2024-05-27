@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="project.js" defer></script>
+    <link rel="stylesheet" href="project.css" />
+    <title>HODU</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header-Logo">
+      <a href="#"><img src="img\Logo-fin.svg" alt="HODU로고" /></a>
+      </div>
+      <nav class="header-nav-bar">
+        <div class="header-nav-menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Support</a>
+          <a href="#" class="header-nav-menu-download">Dowonload</a>
+        </div>
+      </nav>
+    </header>
+    <!-- main-contet-->
+    <main class="main-content">
+      <div class="main-content-item">
+        <h1 class="main-content-title">Lorem Ipsum is simply<br />dummy text of the printing and</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and <br />typesetting industry. <br />
+          divLorem Ipsum has been the industry's standard dummy text <br />ever since the 1500s, when an unknown</p>
+        <a href="#"class="main-content-download">Download</a>
+      </div>
+        <img src="img\img_cat_png.png" alt="메인-고양이-이미지" />
+    </main>
+    <!-- best-content -->
+    <section class="best-content">
+      <img src="img\img_4.png" alt="베스트-고양이" width="660px" />
+      <div class="best-content-txt">
+        <h2>Lorem Ipsum is simply <br />dummy text of the printing <br />and dummy text</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting<br />industry.</p>
+      </div>
+    </section>
+    <!-- gallery -->
+    <article class="gallery">
+      <h1 class="gallery-title">dummy text of the printing and dummy</h1>
+      <p>Lorem Ipsum is simply <span>dummy text</span> of the printing andtypesetting industry. <br />
+        Lorem Ipsum has been the industry's standard dummy text ever since the1500s, when an unknown</p>
+      <ul class="gallery-photo">
+        <li><img src="img\cat1.jpg" alt="고양이사진1" /></li>
+        <li><img src="img\cat2.jpg" alt="고양이사진2" /></li>
+        <li><img src="img\cat3.jpg" alt="고양이사진3" /></li>
+        <li><img src="img\cat4.jpg" alt="고양이사진4" /></li>
+        <li><img src="img\cat5.jpg" alt="고양이사진5" /></li>
+        <li><img src="img\cat6.jpg" alt="고양이사진6" /></li>
+      </ul>
+      <div class="gallery-bottom">
+        <p>Continue exploring HODU</p>
+        <ul class="gallery-more-list"></ul>
+        <div class="gallery-bottom-wrap"><button class="img-loading">Show more</button></div>
+      </div>
+    </article>
+    <!-- hr -->
+    <div class="hr-wrap"><hr /></div>
+    <!-- map -->
+    <article class="map">
+      <div class="map-txt">
+        <h1 class="map-title">Where you'll be</h1>
+        <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+      </div>
+      <div class="map-api-wrap">
+      <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f5cdb90b532ed3fe2300f022f9450641"></script>
+      <div id="map-api"></div>
+    </div>
+    </article>
+    <!-- postblog -->
+    <div class="post">
+      <div class="post-contaner">
+        <div class="post-txt">
+          <span>Subscribe to our Blog post</span><br /><br />
+          ply dummy text of the printing and typesetting industry. <br />
+          Lorem Ipsum has been the industry's standard dummy text
+        </div>
+        <!-- post-mail -->
+          <div class="post-mail-container">
+          <img src="img\mail.svg" alt="메일-아이콘"/>
+          <input type="text" class="post-mail-input" placeholder="Enter your e-mail address"/>
+          <button class="open-modal-btn">Subscribe</button>
+          <!-- modal -->
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+                <img src="img\modal-cat.png" alt="모달창-고양이">
+                <div class="txt-container">
+                <div class="thank-txt">Thank you!</div>
+                <p>Lorem Ipsum is simply dummy text of the printing industry. </p>
+              </div>
+                <button class="close">OK! I Love HODU</button>
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="image-wrapper">
+          <img src="img\img_5.png" alt="고양이-배경" class="bottom-img" />
+        <div class="bottom">
+          <a href="#"><img src="img\scroll-top-btn.png" alt="맨-위로-가기" class="scroll-top" /></a>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <img src="img\Logo-fin.svg" alt="hodu-logo" class="footer-logo"/>
+      <div class="footer-sns">
+        <a href="#"><li><img src="img\icon-blog.png" alt="블로그-바로가기" /></li></a>
+        <a href="#"><li><img src="img\icon-insta.png" alt="인스타-바로가기" /></li></a>
+        <a href="#"><li><img src="img\icon-facebook.png" alt="페이스북-바로가기" /></li></a>
+        <a href="#"><li><img src="img\icon-youtube.png" alt="유튜브-바로가기" /></li></a>
+      </div>
+    </footer>
+  </body>
+</html>

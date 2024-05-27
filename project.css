@@ -36,12 +36,17 @@ body {
 }
 
 .header-nav-bar{
+  display: flex;
   margin-right: 320px;
 }
 .header-nav-menu {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.header-nav-menu a {
+  color: black;
 }
 
 .header-nav-menu-download {

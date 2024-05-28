@@ -7,6 +7,7 @@
 }
 
 * {
+  margin: 0 auto;
   margin: 0;
   padding: 0;
   font-family: 'Pretendard-Regular';
@@ -14,22 +15,21 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   height: 100vh;
   overflow-x: hidden; /*가로 스크롤바 없앰*/
+
 }
 
 .header {
   position: fixed;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #f2e9d8;
   width: 100%;
   height: 102px;
   z-index: 14;
+  gap: 800px;
 }
 
 .header-Logo{
@@ -40,6 +40,7 @@ body {
   display: flex;
   margin-right: 320px;
 }
+
 .header-nav-menu {
   display: flex;
   align-items: center;
@@ -71,9 +72,9 @@ body {
 
 .main-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #f2e9d8;
-  margin-top: 102px;
+  padding-top: 102px;
 }
 
 .main-content-item {
@@ -87,6 +88,7 @@ body {
   width: 415px;
   height: 766px;
   margin-right: 320px;
+  padding-left: 170px;
 }
 
 .main-content-title {
@@ -223,20 +225,17 @@ body {
   justify-content: center;
 }
 
-
 hr {
   background-color: #c4c4c4;
   width: 1278px;
 }
 
 .map {
-  margin-left: 320px;
-  margin-right: 320px;
+  width: 1270px;
+  margin: auto;
 }
 
 .map-txt {
-  display: flex;
-  flex-direction: column;
   margin-top: 68px;
 }
 
@@ -330,7 +329,6 @@ hr {
   background-color: #45a049;
 }
 
-/* 모달 스타일 */
 .modal {
     display: none;
     flex-direction: column;
@@ -412,7 +410,7 @@ hr {
 .scroll-top {
   position: fixed;
   left: 1800px;
-  bottom: 20px;
+  bottom: 50px;
   opacity: 0.5;
 }
 
@@ -422,15 +420,15 @@ hr {
 
 .footer {
   display: flex;
-  justify-content: space-between;
   align-content: center;
+  justify-content: center;
+  gap: 800px;
 }
 
 .footer-logo {
   display: flex;
   width: 226px;
   height: 70px;
-  margin-left: 320px;
   margin-bottom: 100px;
 }
 
@@ -439,6 +437,5 @@ hr {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
-  margin-right: 320px;
   gap: 20px;
 }
